@@ -1,0 +1,99 @@
+        @font-face {
+        font-family: 'military-font';
+        src: url('fonts/armalite.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+body {
+    background-image: url("images/war_bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#cont {
+    background-color: white;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 30px;  
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(221, 27, 27) , #f1e125);
+}
+
+#teams_cont {
+    margin: auto;
+    width: 65%;
+    height: auto;
+    /* border: 1px solid green; */
+}
+
+.class_team_cont {
+    display: inline-block;
+    margin: auto;
+    width: 45%;
+    height: auto;
+    border: 1px solid black;
+    min-width: 49%;
+}
+
+#id_cont_cont {
+    position: relative;
+    float:left;
+}
+
+#id_cont_teamb {
+    position: relative;
+    float:right;
+}
+
+button {
+    margin-top: 20px;
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 30%;
+
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'military-font', Fallback, sans-serif;
+    margin-top:20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#id_img {
+    border-radius: 3%;
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 45%;
+    height: auto;
+    padding: 0; 
+}
+
+.center {
+    margin: auto;
+    display: block;
+}
+
+#id_btn_generate { 
+    margin-top: 30px;
+}
+
+img.responsive-img {
+    max-width: 100%;
+    height: 55px;
+}
